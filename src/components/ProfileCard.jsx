@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // for navigation after logout
 import { motion } from "framer-motion";
 
-export default function ProfileCard() {
+const ProfileCard = () => {
     const navigate = useNavigate();
     const [editing, setEditing] = React.useState(false);
     const [fields, setFields] = React.useState({
@@ -117,3 +117,5 @@ export default function ProfileCard() {
         </motion.div>
     );
 }
+
+export default ProfileCard;

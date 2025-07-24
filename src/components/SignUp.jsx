@@ -9,7 +9,7 @@ import {useGlobal} from '../context/GlobalContext'
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function SignUp() {
+const SignUp = () => {
     const { setName, setEmail, setPassword ,email , password ,name } = useGlobal();
     const navigate = useNavigate();
     const formRef = useRef(null);
@@ -175,3 +175,5 @@ export default function SignUp() {
         </div>
     );
 }
+
+export default 

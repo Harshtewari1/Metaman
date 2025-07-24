@@ -58,7 +58,7 @@ function FullScreenWaves() {
   );
 }
 
-export default function ProfilePage() {
+const ProfilePage = () => {
   return (
     <div className="fixed inset-0 w-full h-full bg-black overflow-hidden z-0 select-none">
       {/* 3D Animated Background */}
@@ -75,3 +75,4 @@ export default function ProfilePage() {
     </div>
   );
 }
+export default ProfilePage;

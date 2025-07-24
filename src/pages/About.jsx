@@ -46,8 +46,8 @@ function GlassSphereBg() {
     );
 }
 
-export default function AboutPage() {
-    
+const AboutPage = () => {
+
     const [expanded, setExpanded] = useState(false);
     // Section 1 Reveal on Scroll
     const [sect1Ref, sect1InView] = useInView({ triggerOnce: true, threshold: 0.3 });
@@ -196,3 +196,4 @@ We are proud to have renowned cricketer KL Rahul as our brand ambassador and inv
         </div>
     );
 }
+export default AboutPage;

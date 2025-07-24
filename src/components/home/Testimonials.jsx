@@ -43,7 +43,7 @@ const testimonials = [
   },
 ];
 
-export default function TestimonialSection() {
+const TestimonialSection = () => {
   const [currentPage, setCurrentPage] = useState(0);
   const cardsPerPage = 3;
   const totalPages = Math.ceil(testimonials.length / cardsPerPage);
@@ -136,3 +136,5 @@ export default function TestimonialSection() {
     </section>
   );
 }
+
+export default TestimonialSection;

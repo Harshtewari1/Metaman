@@ -11,7 +11,7 @@ const videos = [
     "https://www.instagram.com/reel/DAX2l8ePDrd/",
 ];
 
-export default function Collab() {
+const Collab = () => {
     const containerRef = useRef(null);
 
     // Inject Instagram embed script
@@ -88,3 +88,6 @@ export default function Collab() {
         </section>
     );
 }
+
+
+export default Collab;

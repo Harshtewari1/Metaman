@@ -6,7 +6,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ScrollableText() {
+const ScrollableText = () => {
     const marqueeRef = useRef(null);
     const containerRef = useRef(null);
     const position = useRef(0);
@@ -65,3 +65,5 @@ export default function ScrollableText() {
         </div>
     );
 }
+
+export default ScrollableText;

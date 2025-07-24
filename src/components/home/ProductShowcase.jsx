@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function ProductShowcase() {
+const ProductShowcase = () => {
     const { products } = useGlobal();
     const containerRef = useRef(null);
     const horizontalRef = useRef(null);
@@ -201,3 +201,6 @@ function ProductCard({ product }) {
         </div>
     );
 }
+
+
+export default ProductShowcase;

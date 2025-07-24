@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import introV from "../assets/introV.mp4";
 
-export default function IntroVideo({ onFinish }) {
+const IntroVideo = ({ onFinish }) => {
     const wrapperRef = useRef(null);
 
     useEffect(() => {
@@ -34,3 +34,5 @@ export default function IntroVideo({ onFinish }) {
         </div>
     );
 }
+
+export default IntroVideo;

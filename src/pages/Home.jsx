@@ -5,7 +5,7 @@ import ProductShowcase from '../components/home/ProductShowcase'
 import Testimonials from '../components/home/Testimonials'
 import ScrollableText from '../components/home/ScrollableText'
 import Collab from '../components/home/CollabSection'
-import Footer from '../components/Fotter'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (

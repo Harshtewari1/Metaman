@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useGlobal } from "../context/GlobalContext";
 
-export default function ProductDetail() {
+const ProductDetail = () => {
   const { products } = useGlobal();
   const { id } = useParams();
 
@@ -151,3 +151,5 @@ export default function ProductDetail() {
     </div>
   );
 }
+
+export default ProductDetail;

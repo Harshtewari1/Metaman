@@ -9,7 +9,7 @@ import ProductDetail from "../pages/ProductDetail";
 import CheckoutForm from "../pages/CheckOutForm";
 import PrivateRoute from "../components/PrivateRoute";
 
-export default function AppRoutes() {
+const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/" element={<Home />} />
@@ -45,3 +45,4 @@ export default function AppRoutes() {
         </Routes>
     );
 }
+export default AppRoutes;

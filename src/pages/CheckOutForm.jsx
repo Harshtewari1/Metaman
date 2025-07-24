@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
-export default function PaymentPage() {
+const PaymentPage = () => {
     const navigate = useNavigate();
     const [form, setForm] = useState({
         cardHolder: "",
@@ -98,3 +98,4 @@ export default function PaymentPage() {
         </div>
     );
 }
+export default PaymentPage;

@@ -2,7 +2,7 @@
 import React from "react";
 import MetamanLogo from "../assets/Metaman.png";
 
-export default function Footer() {
+const Footer = () => {
     return (
         <footer className="bg-black text-white py-12 px-4 sm:px-6 lg:px-12">
             {/* Logo Section */}
@@ -66,3 +66,5 @@ export default function Footer() {
         </footer>
     );
 }
+
+export default Footer

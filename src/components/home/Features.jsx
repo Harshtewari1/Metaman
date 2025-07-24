@@ -27,7 +27,7 @@ const features = [
     },
 ];
 
-export default function FeaturedSection() {
+const FeaturedSection = () => {
     const navigate = useNavigate();
 
     const [index, setIndex] = useState(0);
@@ -139,3 +139,5 @@ export default function FeaturedSection() {
         </section>
     );
 }
+
+export default FeaturedSection;

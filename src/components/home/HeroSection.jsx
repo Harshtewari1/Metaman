@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom"; // ✅ for navigation
 import bgVideo from "../../assets/Home.mp4";
 
-export default function HeroSection() {
+const HeroSection = () => {
     return (
         <section className="relative w-full h-screen overflow-hidden bg-black">
             {/* Background Video Layer 1 */}
@@ -84,3 +84,5 @@ export default function HeroSection() {
         </section>
     );
 }
+
+export default HeroSection;
