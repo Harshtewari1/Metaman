@@ -1,5 +1,5 @@
 import AppRoutes from "./routes/AppRoutes";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
 import { GlobalProvider } from "./context/GlobalContext";
 import MenuBar from "./pages/MenuBar";
 import { useState , useEffect } from "react";
