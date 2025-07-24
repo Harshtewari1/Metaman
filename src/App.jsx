@@ -1,11 +1,10 @@
 import AppRoutes from "./routes/AppRoutes";
-// import Navbar from "./components/Navbar.jsx";
 import { GlobalProvider } from "./context/GlobalContext";
 import MenuBar from "./pages/MenuBar";
 import { useState , useEffect } from "react";
 import IntroVideo from "./components/IntroVideo";
 import { AuthProvider } from "./context/AuthContext"; // 👈 Add this
-import NavBar from "./components/NavBar";
+// import NavBar from "./components/NavBar";
 
 function App() {
   
@@ -32,8 +31,8 @@ function App() {
         <IntroVideo onFinish={handleIntroFinish} />
       ) : (
         <GlobalProvider> {/* 🌐 Global App state provider */}
-            {/* <Navbar />  */}
-            <NavBar/>
+            
+            {/* <NavBar/> */}
           <MenuBar />
           <AppRoutes />
         </GlobalProvider>
