@@ -1,4 +1,4 @@
-"use client";
+
 import { useEffect, useRef } from "react";
 import introV from "../assets/introV.mp4";
 

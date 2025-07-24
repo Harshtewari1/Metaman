@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import { useGlobal } from "../context/GlobalContext";
 import ProductCard from "../components/ProductCard";

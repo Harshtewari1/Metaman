@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom"; // for navigation after logout
 import { motion } from "framer-motion";

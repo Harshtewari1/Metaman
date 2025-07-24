@@ -1,4 +1,3 @@
-"use client";
 import React, { useEffect, useRef, useState } from "react";
 import { useGlobal } from "../../context/GlobalContext";
 import gsap from "gsap";

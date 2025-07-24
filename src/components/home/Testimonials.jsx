@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useEffect, useRef, useState } from "react";
 import Tilt from "react-parallax-tilt";
 import { motion, AnimatePresence } from "framer-motion";
