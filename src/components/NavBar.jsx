@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Menu } from 'lucide-react';
 import MetamanLogo from '../assets/Metaman.png';
-import { useGlobal } from '../context/GlobalContext';
+import { useGlobal } from '../context/GlobalContext.jsx';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
