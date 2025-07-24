@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { motion } from 'framer-motion';
-import {useGlobal} from '../context/GlobalContext'
+import {useGlobal} from '../context/GlobalContext.jsx'
 
 
 gsap.registerPlugin(ScrollTrigger);

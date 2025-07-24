@@ -2,7 +2,7 @@ import React from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
 import { Leva } from "leva";
-import ProfileCard from "../components/ProfileCard";
+import ProfileCard from "../components/ProfileCard.jsx";
 
 function FullScreenWaves() {
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useGlobal } from "../../context/GlobalContext";
+import { useGlobal } from "../../context/GlobalContext.jsx";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { ChevronLeft, ChevronRight } from "lucide-react";

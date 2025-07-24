@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link, useParams } from "react-router-dom";
-import { useGlobal } from "../context/GlobalContext";
+import { useGlobal } from "../context/GlobalContext.jsx";
 
 const ProductDetail = () => {
   const { products } = useGlobal();

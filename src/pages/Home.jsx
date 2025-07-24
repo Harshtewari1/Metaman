@@ -1,11 +1,11 @@
 import React from 'react'
-import HeroSection from '../components/home/HeroSection'
-import Features from '../components/home/Features'
-import ProductShowcase from '../components/home/ProductShowcase'
-import Testimonials from '../components/home/Testimonials'
-import ScrollableText from '../components/home/ScrollableText'
+import HeroSection from '../components/home/HeroSection.jsx'
+import Features from '../components/home/Features.jsx'
+import ProductShowcase from '../components/home/ProductShowcase.jsx'
+import Testimonials from '../components/home/Testimonials.jsx'
+import ScrollableText from '../components/home/ScrollableText.jsx'
 // import Collab from '../components/home/CollabSection'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer.jsx'
 
 const Home = () => {
   return (

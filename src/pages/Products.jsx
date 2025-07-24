@@ -1,7 +1,7 @@
 
 import React from "react";
-import { useGlobal } from "../context/GlobalContext";
-import ProductCard from "../components/ProductCard";
+import { useGlobal } from "../context/GlobalContext.jsx";
+import ProductCard from "../components/ProductCard.jsx";
 
 const Products = () => {
   const { products } = useGlobal();

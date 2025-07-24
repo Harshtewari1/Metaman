@@ -7,6 +7,7 @@ import IntroVideo from "./components/IntroVideo";
 import { AuthProvider } from "./context/AuthContext"; // 👈 Add this
 
 function App() {
+  
   const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
@@ -25,7 +26,7 @@ function App() {
 
   return (
     <AuthProvider> {/* 👈 Wrap everything with AuthProvider */}
-
+  
       {showIntro ? (
         <IntroVideo onFinish={handleIntroFinish} />
       ) : (
