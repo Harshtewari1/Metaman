@@ -4,7 +4,7 @@ import MetamanLogo from '../assets/Metaman.png';
 import { useGlobal } from '../context/GlobalContext.jsx';
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const NavBar = () => {
   const { setMenuOpen } = useGlobal();
   const navRef = useRef(null);
   const lastScrollY = useRef(0);
@@ -67,4 +67,4 @@ const Navbar = () => {
 }
 
 
-export default Navbar;
+export default NavBar;

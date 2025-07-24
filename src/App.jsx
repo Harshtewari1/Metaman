@@ -5,7 +5,7 @@ import MenuBar from "./pages/MenuBar";
 import { useState , useEffect } from "react";
 import IntroVideo from "./components/IntroVideo";
 import { AuthProvider } from "./context/AuthContext"; // 👈 Add this
-import Navbar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 
 function App() {
   
@@ -33,7 +33,7 @@ function App() {
       ) : (
         <GlobalProvider> {/* 🌐 Global App state provider */}
             {/* <Navbar />  */}
-            <Navbar/>
+            <NavBar/>
           <MenuBar />
           <AppRoutes />
         </GlobalProvider>
