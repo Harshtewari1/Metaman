@@ -1,6 +1,7 @@
 
 import { useEffect, useRef } from "react";
-import introV from "../assets/introV.mp4";
+// import introV from "../assets/introV.mp4";
+import introV from "../assets/introV.webm"; // Use webm for better compatibility
 
 const IntroVideo = ({ onFinish }) => {
     const wrapperRef = useRef(null);
