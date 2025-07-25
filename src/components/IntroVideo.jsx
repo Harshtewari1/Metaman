@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from "react";
-import introV from "../assets/introV.mp4";
+import introV from "../assets/IntroV.mp4";
 
 
 const IntroVideo = ({ onFinish }) => {
