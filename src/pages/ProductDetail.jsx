@@ -39,13 +39,15 @@ const ProductDetail = () => {
 
   return (
     <div className="min-h-screen bg-black text-white px-4 py-8 pt-24 md:pt-28">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto mt-8"
+      >
         <Link
           to="/products"
-          className="text-blue-400 hover:underline text-sm mb-4 inline-block"
+          className="text-black bg-white rounded-full px-5 py-2 transition duration-150 ease-in-out shadow-sm hover:underline hover:shadow-md hover:scale-105 active:scale-95 cursor-pointer text-sm mb-4  inline-block "
         >
           &larr; Back to Products
         </Link>
+
 
         <div className="flex flex-col md:flex-row gap-10">
           {/* IMAGE CAROUSEL */}
@@ -123,7 +125,7 @@ const ProductDetail = () => {
               {deliveryDateString}
             </div>
 
-            <Link to="/#">
+            <Link to="/address">
               <button className="mt-6 bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-full text-white text-sm sm:text-base">
                 Buy Now
               </button>

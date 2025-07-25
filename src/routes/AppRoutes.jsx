@@ -8,6 +8,7 @@ import About from "../pages/About";
 import ProductDetail from "../pages/ProductDetail";
 import CheckoutForm from "../pages/CheckOutForm";
 import PrivateRoute from "../components/PrivateRoute";
+import AddressPage from "../pages/AddressPage";
 
 const AppRoutes = () => {
     return (
@@ -40,6 +41,11 @@ const AppRoutes = () => {
             <Route path="/checkOutForm" element={
                 <PrivateRoute>
                     <CheckoutForm />
+                </PrivateRoute>
+            } />
+            <Route path="/address" element={
+                <PrivateRoute>
+                    <AddressPage />
                 </PrivateRoute>
             } />
         </Routes>
