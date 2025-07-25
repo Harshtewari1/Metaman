@@ -72,7 +72,7 @@ const Login = () => {
         ref={loginBox}
         className="flex flex-col md:flex-row items-center justify-around bg-gray-900/90 rounded-2xl shadow-2xl overflow-hidden w-full max-w-5xl backdrop-blur-lg border border-white/10"
       >
-        {/* Image Section */}
+        
         <motion.div
           ref={leftImageRef}
           initial={{ opacity: 0, x: -80 }}
@@ -87,7 +87,7 @@ const Login = () => {
           />
         </motion.div>
 
-        {/* Login Form */}
+        
         <motion.div
           className="w-full md:w-1/2 flex flex-col items-center justify-center p-8 md:p-12 text-white"
           initial={{ opacity: 0, y: 40 }}

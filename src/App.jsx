@@ -11,7 +11,7 @@ function App() {
   const [showIntro, setShowIntro] = useState(false);
 
   useEffect(() => {
-    // Check localStorage if video already played
+    
     const hasSeenIntro = localStorage.getItem("hasSeenIntro");
     if (!hasSeenIntro) {
       setShowIntro(true);
@@ -25,12 +25,12 @@ function App() {
 
 
   return (
-    <AuthProvider> {/* 👈 Wrap everything with AuthProvider */}
+    <AuthProvider> 
   
       {showIntro ? (
         <IntroVideo onFinish={handleIntroFinish} />
       ) : (
-        <GlobalProvider> {/* 🌐 Global App state provider */}
+        <GlobalProvider> 
             
           <NavBar/>
           <MenuBar />

@@ -23,7 +23,7 @@ const metamanPreview =
     "Metaman is a fragrance brand founded by KL Rahul and Drip Project committed to crafting unforgettable scents that embody elegance, sophistication, and individuality. Metaman marks an exciting expansion into the world of high-end perfumes ...";
 
 
-// 3D subtle looping background shape (optional)
+
 function GlassSphereBg() {
     return (
         <Float speed={1} floatIntensity={0.28}>
@@ -49,11 +49,11 @@ function GlassSphereBg() {
 const AboutPage = () => {
 
     const [expanded, setExpanded] = useState(false);
-    // Section 1 Reveal on Scroll
+    
     const [sect1Ref, sect1InView] = useInView({ triggerOnce: true, threshold: 0.3 });
-    // Section 2 Reveal
+   
     const [sect2Ref, sect2InView] = useInView({ triggerOnce: true, threshold: 0.15 });
-    // Section 3 Reveal
+    
     const [sect3Ref, sect3InView] = useInView({ triggerOnce: true, threshold: 0.15 });
 
     return (
@@ -148,7 +148,7 @@ const AboutPage = () => {
                 </section>
 
 
-                {/* Section 3 (Animated Product Image + 3D Photo reveal) */}
+               
                 <section className="min-h-screen flex items-center justify-center px-6 bg-[#0f0f0f]">
                     <motion.div
                         ref={sect3Ref}
@@ -156,7 +156,7 @@ const AboutPage = () => {
                         initial={{ opacity: 0, y: 40 }}
                         animate={sect3InView ? { opacity: 1, y: 0, transition: { duration: 1 } } : {}}
                     >
-                        {/* 3D Zoom/Parallax on image */}
+                       
                         <motion.div
                             whileHover={{ scale: 1.04, rotateY: 9 }}
                             transition={{ type: "spring", stiffness: 210 }}
@@ -172,7 +172,7 @@ const AboutPage = () => {
                                     ? { scale: 1, filter: "blur(0px) brightness(1)", transition: { delay: 0.2, duration: 1.2 } }
                                     : {}}
                             />
-                            {/* Optional animated overlay or light sparkle here */}
+                            
                         </motion.div>
                         <div>
                             <motion.h2

@@ -25,7 +25,7 @@ const MenuBar = () => {
           { to: "/about", label: "About" },
           { to: "/products", label: "Products" },
           { to: "/profile", label: "Profile" },
-          // { to: "/login", label: "Login / Sign Up" }
+         
         ].map((item, index) => (
           <Link key={index} to={item.to} onClick={handleMenuClick} className="w-full">
             <li className="w-full transition-all duration-700 ease-in-out border-b-2 border-white rounded-md hover:bg-white hover:text-black px-2 py-2 

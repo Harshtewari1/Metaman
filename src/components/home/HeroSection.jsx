@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom"; // ✅ for navigation
+import { Link } from "react-router-dom"; 
 import bgVideo from "../../assets/Home.mp4";
 
 const HeroSection = () => {
     return (
         <section className="relative w-full h-screen overflow-hidden bg-black">
-            {/* Background Video Layer 1 */}
+            
             <video
                 className="absolute top-0 left-0 w-full h-full z-0 opacity-80"
                 src={bgVideo}
@@ -25,9 +25,9 @@ const HeroSection = () => {
                 playsInline
             />
 
-            {/* Overlay Content */}
+            
             <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center px-6">
-                {/* Title */}
+                
                 <motion.h1
                     initial={{ opacity: 0, y: 40, letterSpacing: "-0.06em", filter: "blur(6px)" }}
                     animate={{ opacity: 1, y: 0, letterSpacing: "0.02em", filter: "blur(0px)" }}
@@ -39,7 +39,7 @@ const HeroSection = () => {
                     Unleash Your Style. Own Your Scent.
                 </motion.h1>
 
-                {/* Subheading */}
+            
                 <motion.p
                     initial={{ opacity: 0, y: 32, filter: "blur(3px)" }}
                     animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
@@ -50,7 +50,7 @@ const HeroSection = () => {
                     Elevate your style with Metaman fragrances — curated for the modern man.
                 </motion.p>
 
-                {/* Explore Button wrapped with Link */}
+                
                 <Link to="/products">
                     <motion.button
                         initial={{ opacity: 0, scale: 0.91 }}
@@ -66,7 +66,7 @@ const HeroSection = () => {
                             scale: 0.96,
                             boxShadow: "0 2px 14px 0 rgba(66,139,202,0.15)",
                             background: "linear-gradient(95deg,#253241 70%,#0450a4 100%)",
-                            transition: { duration: 0.2 } // tap fast response
+                            transition: { duration: 0.2 } 
                         }}
                         transition={{ delay: 0.57, duration: 0.6, type: "spring" }}
                         className="px-39 py-5 text-white font-bold text-lg md:text-2xl rounded-full mt-3 border-2 border-white shadow-xl bg-gradient-to-r from-slate-800 

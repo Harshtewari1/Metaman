@@ -63,7 +63,7 @@ const FeaturedSection = () => {
                 className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-7xl mx-auto"
                 ref={ref}
             >
-                {/* IMAGE */}
+                
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={features[index].image}
@@ -79,7 +79,7 @@ const FeaturedSection = () => {
                             className="w-full h-full object-cover transform transition-transform group-hover:scale-105 duration-500 ease-in-out"
                         />
 
-                        {/* Arrows */}
+                        
                         <button
                             onClick={handlePrev}
                             className="absolute left-3 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-lg hover:scale-110 transition"
@@ -95,7 +95,7 @@ const FeaturedSection = () => {
                     </motion.div>
                 </AnimatePresence>
 
-                {/* TEXT */}
+                
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={features[index].text}

@@ -50,7 +50,7 @@ const ProductDetail = () => {
 
 
         <div className="flex flex-col md:flex-row gap-10">
-          {/* IMAGE CAROUSEL */}
+        
           <div className="relative w-full md:w-1/2 h-[300px] sm:h-[350px] md:h-[400px] flex items-center justify-center">
             <img
               src={images[currentImg]}
@@ -92,7 +92,7 @@ const ProductDetail = () => {
             )}
           </div>
 
-          {/* DETAILS */}
+          
           <div className="w-full md:w-1/2">
             <h1 className="text-3xl sm:text-4xl font-bold mb-3">{product.name}</h1>
             <p className="text-gray-400 mb-4 text-sm sm:text-base">{product.description}</p>
@@ -133,7 +133,7 @@ const ProductDetail = () => {
           </div>
         </div>
 
-        {/* More Info */}
+    
         <div className="mt-16 text-sm sm:text-base text-gray-400">
           <h2 className="text-xl sm:text-2xl font-semibold text-white mb-2"
             style={{ fontFamily: "'Libre Baskerville', serif" }}>

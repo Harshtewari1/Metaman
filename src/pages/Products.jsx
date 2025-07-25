@@ -14,7 +14,7 @@ const Products = () => {
           key={products[0].id}
           product={products[0]}
           isReversed={false}
-          bgColor="bg-[#5A3E36]" // Brown
+          bgColor="bg-[#5A3E36]"
         />
       )}
 
@@ -36,7 +36,7 @@ const Products = () => {
               key={products[2].id}
               product={products[2]}
               isReversed={true}
-              bgColor="bg-[#424242]" // Gray
+              bgColor="bg-[#424242]" 
             />
           </div>
         )}
@@ -72,7 +72,7 @@ const Products = () => {
           key={products[5].id}
           product={products[5]}
           isReversed={false}
-          bgColor="bg-violet-400" // Deep violet for new product
+          bgColor="bg-violet-400" 
         />
       )}
     </div>

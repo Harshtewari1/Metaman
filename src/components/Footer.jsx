@@ -5,7 +5,8 @@ import MetamanLogo from "../assets/Metaman.png";
 const Footer = () => {
     return (
         <footer className="bg-black text-white py-12 px-4 sm:px-6 lg:px-12" style={{ fontFamily: "'Open Sans', sans-serif" }}>
-            {/* Logo Section */}
+            
+
             <div className="flex justify-center sm:justify-start mb-10">
                 <img
                     src={MetamanLogo}
@@ -14,9 +15,10 @@ const Footer = () => {
                 />
             </div>
 
-            {/* Grid Section */}
+
+            
             <div className="max-w-7xl mx-auto grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-                {/* Quick Links */}
+                
                 <div>
                     <p className="font-semibold uppercase mb-3">Quick Links</p>
                     <ul className="space-y-2 text-sm text-gray-300">
@@ -27,7 +29,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Legal Info */}
+               
                 <div>
                     <p className="font-semibold uppercase mb-3">Legal Information</p>
                     <ul className="space-y-2 text-sm text-gray-300">
@@ -39,7 +41,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
-                {/* Newsletter */}
+                
                 <div className="lg:col-span-2">
                     <p className="font-semibold uppercase mb-3">Newsletter</p>
                     <p className="text-sm text-gray-400 mb-4">

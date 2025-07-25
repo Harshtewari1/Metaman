@@ -29,7 +29,6 @@ const CheckoutForm = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-100 to-blue-300 py-10 px-2">
             <div className="w-full max-w-3xl bg-white rounded-3xl shadow-2xl flex flex-col md:flex-row overflow-hidden relative">
-                {/* Cross icon top right */}
                 <button
                     onClick={() => navigate("/")}
                     className="absolute top-4 right-4 z-20 p-2 bg-gray-100 hover:bg-gray-200 rounded-full transition focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -46,7 +45,6 @@ const CheckoutForm = () => {
                     </svg>
                 </button>
 
-                {/* Left: ATM image area */}
                 <div className="hidden md:flex flex-col justify-center items-center bg-gradient-to-b from-blue-900 via-blue-700 to-blue-500 p-8 w-96">
                     <img
                         src={ATM_IMAGE_URL}
@@ -58,7 +56,6 @@ const CheckoutForm = () => {
                     </div>
                 </div>
 
-                {/* Right: Paytm gateway-like form */}
                 <div className="flex-1 p-6 sm:p-10 flex flex-col justify-center">
                     <h2 className="text-2xl font-bold mb-6 text-blue-700 text-center">
                         Paytm Payment Gateway
@@ -120,7 +117,6 @@ const CheckoutForm = () => {
                     </form>
                 </div>
 
-                {/* Pop up modal */}
                 {showThankYou && (
                     <div className="absolute inset-0 flex items-center justify-center bg-blue-100 bg-opacity-60 z-30">
                         <div className="bg-white rounded-2xl shadow-xl px-10 py-8 text-center">

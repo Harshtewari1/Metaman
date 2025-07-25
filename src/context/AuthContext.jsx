@@ -4,12 +4,12 @@ const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
-    const [loading, setLoading] = useState(true); // <-- ADD
+    const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
         const user = JSON.parse(localStorage.getItem("user"));
         if (user) setIsAuthenticated(true);
-        setLoading(false); // <-- Only after check
+        setLoading(false); 
     }, []);
 
     const login = () => setIsAuthenticated(true);

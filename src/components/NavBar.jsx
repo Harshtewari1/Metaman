@@ -15,7 +15,7 @@ const NavBar = () => {
   const location = useLocation();          
   const hideIconOnPaths = ['/address', '/checkoutform'];  
 
-  // Detect screen size
+  
   useEffect(() => {
     const handleResize = () => {
       setIsMobileOrTablet(window.innerWidth < 1024);
@@ -25,7 +25,7 @@ const NavBar = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  // Scroll detection
+  
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
@@ -41,7 +41,7 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Check if current path is in hide list
+  
   const shouldHideIcon = hideIconOnPaths.includes(location.pathname.toLowerCase());
 
   return (

@@ -126,7 +126,7 @@ const ProductShowcase = () => {
                 </div>
             ) : (
                 <div className="relative w-full overflow-hidden py-12">
-                    {/* Slider Container */}
+                    
                     <div
                         className="flex transition-transform duration-500 ease-in-out"
                         style={{
@@ -146,7 +146,7 @@ const ProductShowcase = () => {
                         ))}
                     </div>
 
-                    {/* Navigation Buttons */}
+                   
                     <div className="absolute top-1/2 left-0 right-0 flex justify-between px-4 sm:px-6 -translate-y-1/2">
                         <button
                             onClick={prevSlide}

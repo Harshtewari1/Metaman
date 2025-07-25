@@ -1,6 +1,6 @@
 
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom"; // for navigation after logout
+import { useNavigate } from "react-router-dom"; 
 import { motion } from "framer-motion";
 
 const ProfileCard = () => {
@@ -13,7 +13,7 @@ const ProfileCard = () => {
         city: "",
     });
 
-    // Load data from localStorage on mount
+    
     useEffect(() => {
         const storedUser = JSON.parse(localStorage.getItem("user"));
         if (storedUser) {
@@ -34,8 +34,8 @@ const ProfileCard = () => {
     };
 
     const handleLogout = () => {
-        localStorage.removeItem("user"); // clear cache
-        navigate("/login"); // redirect to login
+        localStorage.removeItem("user"); 
+        navigate("/login"); 
     };
 
     return (
@@ -45,7 +45,7 @@ const ProfileCard = () => {
             transition={{ type: "spring", duration: 1.1 }}
             className="w-[95vw] max-w-[420px] rounded-2xl shadow-2xl border border-white backdrop-blur-2xl px-0 pt-2 pb-5 flex flex-col mx-auto"
         >
-            {/* Profile Image, Name, Email */}
+            
             <div className="flex flex-col items-center gap-1 pt-6 pb-3 px-6">
                 <img
                     src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&w=256&q=60"
@@ -56,7 +56,7 @@ const ProfileCard = () => {
                 <div className="text-blue-100 text-base">{fields.email}</div>
             </div>
 
-            {/* Editable Info Block */}
+            
             <div className="w-full flex flex-col gap-3 px-5 sm:px-7 pt-4 pb-6 mt-2 rounded-b-2xl">
                 <label className="text-sm text-blue-200 font-light mb-0.5">Name</label>
                 <input

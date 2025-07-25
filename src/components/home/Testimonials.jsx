@@ -78,7 +78,7 @@ const TestimonialSection = () => {
       </div>
 
       <div className="relative">
-        {/* Arrows */}
+       
         <button
           onClick={prevPage}
           className="absolute left-0 top-1/2 -translate-y-1/2 bg-white text-black p-2 rounded-full z-10"
@@ -92,7 +92,7 @@ const TestimonialSection = () => {
           <ChevronRight />
         </button>
 
-        {/* Testimonials */}
+       
         <AnimatePresence mode="wait">
           <motion.div
             key={currentPage}

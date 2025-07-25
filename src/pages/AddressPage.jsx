@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const AddressPage = () => {
-    // ... your state, handleChange, handleSubmit, etc.
+   
 
     const [form, setForm] = useState({
         fullName: "",
@@ -29,7 +29,7 @@ const AddressPage = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-black py-8 px-2">
             <div className="w-full max-w-2xl bg-white rounded-3xl shadow-xl flex flex-col md:flex-row overflow-hidden relative">
-                {/* Cancel button top right as cross icon */}
+                
                 <button
                     onClick={() => navigate("/")}
                     className="absolute top-4 right-4 p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition focus:outline-none focus:ring-2 focus:ring-blue-500"
@@ -51,13 +51,13 @@ const AddressPage = () => {
                     </svg>
                 </button>
 
-                {/* LEFT: Address Form */}
+               
                 <div className="flex-1 p-6 sm:p-10">
                     <h2 className="text-2xl font-bold mb-6 text-gray-900 text-center md:text-left">
                         Shipping Address
                     </h2>
                     <form onSubmit={handleSubmit} className="space-y-4">
-                        {/* ... your input and textarea fields ... */}
+                       
                         <input
                             type="text"
                             name="fullName"
@@ -119,7 +119,7 @@ const AddressPage = () => {
                     </form>
                 </div>
 
-                {/* RIGHT: Illustration or Info */}
+                
                 <div className="hidden md:flex flex-col justify-center items-center bg-gradient-to-b from-blue-50 to-blue-100 p-8 w-96">
                     <svg
                         className="w-20 h-20 mb-4 text-blue-500"

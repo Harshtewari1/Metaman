@@ -10,7 +10,7 @@ const ScrollableText = () => {
     const marqueeRef = useRef(null);
     const containerRef = useRef(null);
     const position = useRef(0);
-    const direction = useRef(-1); // -1 = left, 1 = right
+    const direction = useRef(-1); 
 
     useEffect(() => {
         const el = marqueeRef.current;
@@ -20,7 +20,7 @@ const ScrollableText = () => {
 
         const updateDirection = () => {
             const currentScroll = window.scrollY;
-            direction.current = currentScroll > lastScroll ? -1 : 1; // down → left, up → right
+            direction.current = currentScroll > lastScroll ? -1 : 1; 
             lastScroll = currentScroll;
         };
 
@@ -28,12 +28,12 @@ const ScrollableText = () => {
 
         let frame;
         const animate = () => {
-            const speed = 1.5; // increase for faster scroll
+            const speed = 1.5;
             position.current += direction.current * speed;
 
             const totalWidth = el.scrollWidth / 2;
 
-            // Looping logic
+            
             if (position.current <= -totalWidth) {
                 position.current = 0;
             } else if (position.current >= 0) {

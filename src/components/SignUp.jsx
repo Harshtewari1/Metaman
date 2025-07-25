@@ -66,7 +66,7 @@ const SignUp = () => {
         <div className="min-h-screen bg-black flex items-center justify-center px-4">
             <div className="flex flex-col md:flex-row justify-around items-center w-[90%] md:w-[80%] bg-gray-900/90 backdrop-blur rounded-2xl overflow-hidden shadow-lg border border-white/10">
 
-                {/* Image Section */}
+                
                 <div
                     ref={imageRef}
                     className="w-full md:w-1/2 h-64 md:h-[500px] bg-gradient-to-br  flex items-center justify-center"
@@ -78,7 +78,7 @@ const SignUp = () => {
                     />
                 </div>
 
-                {/* Form Section */}
+                
                 <motion.div
                     ref={formRef}
                     className="w-full md:w-1/2 flex flex-col items-center justify-center p-8 md:p-12 text-white"
@@ -111,7 +111,7 @@ const SignUp = () => {
                         style={{ fontFamily: "'Montserrat', sans-serif" }}
                     />
 
-                    {/* Email Input */}
+                    
                     <motion.input
                         type="email"
                         value={email}
@@ -127,7 +127,7 @@ const SignUp = () => {
                     />
 
 
-                    {/* Password Input */}
+                    
                     <motion.input
                         type="password"
                         value={password}
@@ -142,7 +142,7 @@ const SignUp = () => {
                         style={{ fontFamily: "'Montserrat', sans-serif" }}
                     />
 
-                    {/* Signup Button */}
+                    
                     <motion.button
                         onClick={handleSignup}
                         whileHover={{
@@ -158,7 +158,7 @@ const SignUp = () => {
                         Sign Up
                     </motion.button>
 
-                    {/* Login Redirect */}
+                    
                     <p className="text-sm text-gray-400">
                         Already have an account?{" "}
                         <motion.button

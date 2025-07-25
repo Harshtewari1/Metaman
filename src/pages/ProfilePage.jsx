@@ -61,14 +61,14 @@ function FullScreenWaves() {
 const ProfilePage = () => {
   return (
     <div className="fixed inset-0 w-full h-full bg-black overflow-hidden z-0 select-none">
-      {/* 3D Animated Background */}
+      
       <Canvas camera={{ position: [0, 0, 25], fov: 54 }}>
         <ambientLight intensity={0.68} />
         <Environment preset="night" />
         <FullScreenWaves />
       </Canvas>
       <Leva collapsed />
-      {/* Profile Card Centered */}
+      
       <div className="absolute inset-0 flex items-center justify-center z-10">
         <ProfileCard />
       </div>
