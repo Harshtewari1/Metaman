@@ -3,6 +3,7 @@ import { useGlobal } from "../../context/GlobalContext.jsx";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -186,12 +187,12 @@ function ProductCard({ product }) {
                 {product.description || "Discover more about this fragrance."}
             </p>
             <div className="flex justify-center gap-4 mt-4 card-buttons">
-                <a
+                <Link
                     href={`/product/${product.id}`}
                     className="px-4 py-1.5 border border-pink-500 text-pink-500 font-medium rounded hover:bg-pink-500 hover:text-white transition"
                 >
                     Buy Now
-                </a>
+                </Link>
                 {/* <a
                     href={product.link}
                     className="px-4 py-1.5 border border-white font-medium rounded hover:bg-white hover:text-black transition"
