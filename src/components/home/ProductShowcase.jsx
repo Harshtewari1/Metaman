@@ -188,7 +188,7 @@ function ProductCard({ product }) {
             </p>
             <div className="flex justify-center gap-4 mt-4 card-buttons">
                 <Link
-                    href={`/product/${product.id}`}
+                    to={`/product/${product.id}`}
                     className="px-4 py-1.5 border border-pink-500 text-pink-500 font-medium rounded hover:bg-pink-500 hover:text-white transition"
                 >
                     Buy Now
