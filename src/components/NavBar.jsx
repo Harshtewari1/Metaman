@@ -40,7 +40,7 @@ const NavBar = () => {
   return (
     <nav
       ref={navRef}
-      className={`w-full pt-3 px-10 flex justify-between items-center fixed top-0 left-0 z-50 transition-transform duration-500
+      className={`w-full pt-3 px-10 flex justify-between items-center fixed top-0 left-0 z-50 transition-transform duration-500 
         ${visible ? 'translate-y-0' : '-translate-y-full'}
         ${visible && isMobileOrTablet ? 'bg-black' : 'bg-transparent'}
       `}
