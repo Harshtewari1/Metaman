@@ -54,6 +54,7 @@ const FeaturedSection = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.9 }}
+                style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
                 Why Metaman?
             </motion.h2>

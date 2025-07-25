@@ -59,7 +59,7 @@ const ScrollableText = () => {
                 ref={marqueeRef}
             >
                 {Array.from({ length: 20 }).map((_, index) => (
-                    <span key={index}>Discover Your Scent of Victory</span>
+                    <span key={index} style={{ fontFamily: "'Cormorant Garamond', serif" }}>Discover Your Scent of Victory</span>
                 ))}
             </div>
         </div>

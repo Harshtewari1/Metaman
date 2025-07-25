@@ -55,7 +55,7 @@ export const GlobalProvider = ({ children }) => {
             images:[alphaImg,alpha2Img,alpha3,alpha4],
             image1: alphaImg,
             pngImage: alphaPng,
-            price: 2999,
+            price: 499,
             description:
                 "Ha1o Alpha by Metaman is the ultimate embodiment of strength and sophistication. This luxurious fragrance captures the essence of a modern alpha male, housed in an elegant glass bottle that exudes masculinity and style.",
             link: "#"
@@ -66,7 +66,7 @@ export const GlobalProvider = ({ children }) => {
             images: [sportsImg, sports2Img, sports3, sports4 , f1],
             image1: sportsImg,
             pngImage: sportsPng,
-            price: 2999,
+            price: 499,
             description:
                 "Ha1o Sports by Metaman is the embodiment of energy and freshness. This invigorating fragrance captures the essence of athleticism and dynamism, housed in a sleek glass bottle that exudes vitality and style.",
             link: "#"
@@ -77,7 +77,7 @@ export const GlobalProvider = ({ children }) => {
             images: [nightImg, night2Img, night3, f5, night4 ],
             image1: nightImg,
             pngImage: nightPng,
-            price: 2999,
+            price: 499,
             description: 'Ha1o Party by Metaman is the ultimate fragrance for the life of the Night.This energetic scent captures the essence of celebration and spontaneity, housed in an eye- catching glass bottle that exudes fun and excitement.',
             link: "#"
         },
@@ -90,7 +90,7 @@ export const GlobalProvider = ({ children }) => {
             image3: day3,
             image4: day4,
             pngImage: dayPng,
-            price: 2999,
+            price: 499,
             description:
                 "Ha1o Day by Metaman is the quintessential fragrance for the modern professional. This sophisticated scent captures the essence of ambition and elegance, housed in a sleek glass bottle that exudes confidence and style.",
             link: "#"
@@ -101,7 +101,7 @@ export const GlobalProvider = ({ children }) => {
             images: [dateImg, date2Img, date3, f3],
             image1: dateImg,
             pngImage: date2Png,
-            price: 2999,
+            price: 499,
             description:
                 "Ha1o Date by Metaman is the epitome of passion and allure. This captivating fragrance embodies the essence of romantic evenings and unforgettable moments, housed in an elegant glass bottle that exudes charm and sophistication.",
             link: "#"
@@ -113,7 +113,7 @@ export const GlobalProvider = ({ children }) => {
             images: [PRA, PRA2],
             image1: PRA2,
             pngImage: PRA,
-            price: 2999,
+            price: 999,
             description:
                 "Ha1o Special by Metaman is the epitome of passion and allure. This captivating fragrance embodies the essence of romantic evenings and unforgettable moments, housed in an elegant glass bottle that exudes charm. ",
             link: "#"

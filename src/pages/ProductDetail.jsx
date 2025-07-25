@@ -123,7 +123,7 @@ const ProductDetail = () => {
               {deliveryDateString}
             </div>
 
-            <Link to="/checkoutForm">
+            <Link to="/#">
               <button className="mt-6 bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded-full text-white text-sm sm:text-base">
                 Buy Now
               </button>
@@ -133,16 +133,19 @@ const ProductDetail = () => {
 
         {/* More Info */}
         <div className="mt-16 text-sm sm:text-base text-gray-400">
-          <h2 className="text-xl sm:text-2xl font-semibold text-white mb-2">
+          <h2 className="text-xl sm:text-2xl font-semibold text-white mb-2"
+            style={{ fontFamily: "'Libre Baskerville', serif" }}>
             Why Choose This Perfume?
           </h2>
-          <p className="mb-3">
+          <p className="mb-3"
+            style={{ fontFamily: "'Libre Baskerville', serif" }}>
             Oud Intense stands apart with its bold, long-lasting scent that’s
             crafted from rare ingredients. Whether you're stepping out for a date
             night or attending a classy event, this fragrance ensures you leave a
             lasting impression.
           </p>
-          <p>
+          <p
+            style={{ fontFamily: "'Libre Baskerville', serif" }}>
             All Metaman perfumes are paraben-free, cruelty-free, and bottled with
             precision for premium experiences.
           </p>

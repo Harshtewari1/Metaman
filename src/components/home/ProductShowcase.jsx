@@ -181,7 +181,8 @@ function ProductCard({ product }) {
             <h3 className="text-2xl font-bold mt-6 mb-2 text-center card-title">
                 {product.name}
             </h3>
-            <p className="text-center text-gray-300 max-w-md card-desc">
+            <p className="text-center text-gray-300 max-w-md card-desc"
+                style={{ fontFamily: "'Cormorant Garamond', serif" }}>
                 {product.description || "Discover more about this fragrance."}
             </p>
             <div className="flex justify-center gap-4 mt-4 card-buttons">

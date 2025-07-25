@@ -127,7 +127,9 @@ const TestimonialSection = () => {
                     <p className="text-sm text-gray-400">{testimonial.title}</p>
                   </div>
                 </div>
-                <p className="text-gray-300 leading-relaxed">"{testimonial.message}"</p>
+                <p className="text-gray-300 leading-relaxed"
+                  style={{ fontFamily: "'Cormorant Garamond', serif" }}
+                >"{testimonial.message}"</p>
               </Tilt>
             ))}
           </motion.div>

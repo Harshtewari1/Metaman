@@ -4,7 +4,7 @@ import MetamanLogo from "../assets/Metaman.png";
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-12 px-4 sm:px-6 lg:px-12">
+        <footer className="bg-black text-white py-12 px-4 sm:px-6 lg:px-12" style={{ fontFamily: "'Open Sans', sans-serif" }}>
             {/* Logo Section */}
             <div className="flex justify-center sm:justify-start mb-10">
                 <img

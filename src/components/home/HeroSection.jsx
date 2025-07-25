@@ -33,7 +33,8 @@ const HeroSection = () => {
                     animate={{ opacity: 1, y: 0, letterSpacing: "0.02em", filter: "blur(0px)" }}
                     transition={{ duration: 1.6, ease: "easeOut" }}
                     className="text-5xl md:text-7xl font-bold text-white mb-6 select-none"
-                    style={{ fontFamily: "'Playfair Display', serif" }}
+                    style={{ fontFamily: "'Cormorant Garamond', serif" }}
+
                 >
                     Unleash Your Style. Own Your Scent.
                 </motion.h1>
@@ -44,7 +45,7 @@ const HeroSection = () => {
                     animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
                     transition={{ delay: 0.3, duration: 1.2 }}
                     className="text-white text-xl max-w-2xl mb-7 select-none"
-                    style={{ fontFamily: "'Montserrat', sans-serif", letterSpacing: "0.01em" }}
+                    style={{ fontFamily: "'Libre Baskerville', serif" }}
                 >
                     Elevate your style with Metaman fragrances — curated for the modern man.
                 </motion.p>
@@ -71,7 +72,7 @@ const HeroSection = () => {
                         className="px-39 py-5 text-white font-bold text-lg md:text-2xl rounded-full mt-3 border-2 border-white shadow-xl bg-gradient-to-r from-slate-800 
         transition-all duration-300 select-none relative overflow-hidden focus:outline-none cursor-pointer"
                         style={{
-                            fontFamily: "'Montserrat', sans-serif",
+                            fontFamily: "'Cormorant Garamond', serif",
                             letterSpacing: "0.03em",
                             textShadow: "0 2px 8px rgba(0,30,80,0.13)"
                         }}

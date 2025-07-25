@@ -90,6 +90,7 @@ const AboutPage = () => {
                             className="mt-4 max-w-xl mx-auto text-gray-400"
                             initial={{ opacity: 0, y: 24 }}
                             animate={sect1InView ? { opacity: 1, y: 0, transition: { delay: 0.3, duration: 1.2 } } : {}}
+                            style={{ fontFamily: "'Cormorant Garamond', serif" }}
                         >
                             At Metaman, we believe that grooming isn’t just about appearance—it's about confidence, presence, and lifestyle.
                         </motion.p>
@@ -108,6 +109,7 @@ const AboutPage = () => {
                                     animate={{ opacity: 1, y: 0, transition: { duration: 0.55 } }}
                                     exit={{ opacity: 0, y: 40, transition: { duration: 0.35 } }}
                                     className="mt-4 text-gray-300 text-lg sm:text-2xl whitespace-pre-line"
+                                    style={{ fontFamily: "'Cormorant Garamond', serif" }}
                                 >
                                     {metamanFullText}
                                     <br />
@@ -126,14 +128,16 @@ const AboutPage = () => {
                                     initial={{ opacity: 0, y: 40 }}
                                     animate={{ opacity: 1, y: 0, transition: { duration: 0.45 } }}
                                     exit={{ opacity: 0, y: 40, transition: { duration: 0.3 } }}
-                                    className="mt-4 text-gray-300 text-lg sm:text-2xl"
+                                        className="mt-4 text-gray-300 text-lg sm:text-2xl"
+                                        style={{ fontFamily: "'Cormorant Garamond', serif" }}
                                 >
                                     {metamanPreview}
                                     <span
                                         className="ml-2 underline font-semibold text-blue-400 cursor-pointer hover:text-blue-300 transition"
                                         onClick={() => setExpanded(true)}
                                         tabIndex={0}
-                                        role="button"
+                                            role="button"
+                                            style={{ fontFamily: "'Cormorant Garamond', serif" }}
                                     >
                                         Read more
                                     </span>

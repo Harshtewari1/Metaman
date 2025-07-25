@@ -1,7 +1,6 @@
 
 import { useEffect, useRef } from "react";
 import introV from "../assets/introV.mp4";
-// import introV from "../assets/IntroV.webm";
 
 
 const IntroVideo = ({ onFinish }) => {
@@ -13,9 +12,9 @@ const IntroVideo = ({ onFinish }) => {
             wrapperRef.current.style.opacity = "0";
 
             setTimeout(() => {
-                onFinish(); // show home page
-            }, 10); // wait for fade to complete
-        }, 3000); // 3 sec video time
+                onFinish(); 
+            }, 10); 
+        }, 3000); 
 
         return () => clearTimeout(timer);
     }, [onFinish]);
